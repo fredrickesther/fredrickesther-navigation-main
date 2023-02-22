@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Fraunces:opsz,wght@9..144,700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 13px;
+  font-family: "Epilogue", sans-serif;
+  /* font-family: 'Fraunces', serif; */
+}
+.main-content {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  /* margin: 30px auto; */
+  background-color: hsl(0, 0%, 98%);
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  box-shadow: -29px -28px 382px -15px rgba(84,72,72,0.17);
+  -webkit-box-shadow: -29px -28px 382px -15px rgba(84,72,72,0.17);
+  -moz-box-shadow: -29px -28px 382px -15px rgba(84,72,72,0.17);
+
+}
+.navbar {
+  /* background-color:hsl(0, 0%, 98%) ; */
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  padding: 50px;
+  color: hsl(0, 0%, 41%);
+  position: sticky;
+}
+
+.content-left {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.navlinks-left {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+  /* color: hsl(0, 0%, 41%) ; */
+}
+
+.navlinks-left li {
+  list-style: none;
+  /* color: hsl(0, 0%, 41%)  */
+  cursor: pointer;
+}
+.navlinks-left :hover {
+  color: black;
+  align-items: center;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.navlinks-left a {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+.content-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  
+}
+.navlinks-right {
+  display: flex;
+  gap: 30px;
+  padding-top: 0px;
+  justify-content: space-between;
+  font-size: medium;
+}
+.navlinks-right li {
+  list-style: none;
+  cursor: pointer;
+  /* color: hsl(0, 0%, 41%); */
+}
+.navlinks-right a {
+  text-decoration: none;
+  /* color: hsl(0, 0%, 41%);  */
+}
+.contentarea {
+  display: flex;
+  height: 90vh;
+  width: 80%;
+  margin: 0 auto;
+  /* justify-content: space-around; */
+  /* padding: 50px;
+  color: hsl(0, 0%, 41%);
+  position: absolute; */
+}
+.sideimage {
+  width: 40%;
+  flex: 1;
+  display: flex;
+  justify-content: end;
+}
+
+.sideimage img {
+  width: 70%;
+  height: 70%;
+}
+.articletext {
+  /* display: flex */
+  /* width:66% ; */
+  /* height:70% ; */
+  color: hsl(0, 0%, 41%); 
+}
+.articletext h1 {
+  color: black;
+  /* font-size: xx-large; */
+  /* font-weight: bolder; */
+  /* box-shadow: -29px -28px 382px -15px rgba(84,72,72,0.17); */
+/* -webkit-box-shadow: -29px -28px 382px -15px rgba(84,72,72,0.17); */
+/* -moz-box-shadow: -29px -28px 382px -15px rgba(84,72,72,0.17); */
+
+}
+
+.contentarticle {
+  width: 60%;
+  flex: 1;
+}
+.article-button {
+  padding: 15px 30px;
+  border-radius: 15px;
+  margin-top: 40px;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  font-size: large;
+}
+.article-button:hover {
+  color: black;
+  background-color: white;
+}
+.button2 {
+  padding: 10px 15px;
+  border-radius: 15px;
+  /* margin-top:  40px;  */
+  cursor: pointer;
+  color: hsl(0, 0%, 41%);
+  background-color: transparent;
+  border-color: hsl(0, 0%, 41%);
+  border-width: 1px;
+  font-size: medium; 
+  font-family: "Epilogue", sans-serif;
+
+}
+.button2:hover {
+  color: black;
+}
+.button1 {
+  background-color: transparent;
+  border-style: none;
+  color: hsl(0, 0%, 41%);
+  cursor: pointer;
+  font-size: medium;
+  font-family: "Epilogue", sans-serif;
+}
+.button1:hover {
+  color: black;
+}
+.bottom {
+  /* display: flex; */
+  justify-content: space-between;
+  padding: 100px 15px;
+  /* flex: 0.5; */
+}
+.text{
+  font-family:'Epilogue', sans-serif; 
+  font-size: 90px;
+}
